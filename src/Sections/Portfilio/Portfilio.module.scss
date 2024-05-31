@@ -1,0 +1,30 @@
+@use "../../SASS/Variblies.scss" as *;
+
+
+#portfilio {
+    background-color: $main-color;
+    .Box{
+        margin: 10px 0;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.17);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.17);
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.17);
+    }
+    .linkBlue{
+        transition: color ease 1s;
+        &:hover{
+            color: $blue-color !important;
+        }
+    }
+    .linkBlack{
+        transition: color ease 1s;
+        &:hover{
+            color: $black-color !important;
+        }
+    }
+    .brdrBlue{
+        border-bottom:  3px solid $blue-color;
+    }
+    .brdrBlack{
+        border-bottom: 3px solid $black-color;
+    }
+}

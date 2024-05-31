@@ -1,0 +1,23 @@
+@use "../../SASS/Variblies.scss" as *;
+@use "../../SASS/Mixin.scss" as *;
+
+#singleProject{
+    .projectDetails{
+        .txt{
+            .text_dark{
+                color: $black-color;
+            }
+        }
+        .projInfo{
+            .repo{
+                @include mainBtn($black-color, transparent, $main-color , $black-color);
+            }
+            .liveVer{
+                @include mainBtn($black-color, transparent, $main-color , $red-color);
+            }
+            .img{
+                @include mainBtn($black-color, transparent, $main-color , $mov-color)
+            }
+        }
+    }
+}

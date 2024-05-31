@@ -1,0 +1,22 @@
+@use "../../SASS/Variblies.scss" as *;
+@use "../../SASS/Mixin.scss" as *;
+
+#home{
+    min-height: 100vh;
+    @include center();
+    justify-content: flex-start;
+    background: url(../../assets/home_pics/pexels-olly-840996.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    .caption{
+        text-align: center;
+        color: $black-color;
+        margin-left: 20px;
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 3.5rem;
+        }
+    }
+}

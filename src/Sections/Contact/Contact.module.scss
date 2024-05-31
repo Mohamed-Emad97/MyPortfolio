@@ -1,0 +1,13 @@
+//Import Files
+@use "../../SASS/Variblies.scss" as *;
+
+//Rules
+#contact{
+    h2, h3{
+        color: $black-color;
+    }
+    .heart_icon{
+        color: $red-color;
+        font-size: 18px;
+    }
+}
